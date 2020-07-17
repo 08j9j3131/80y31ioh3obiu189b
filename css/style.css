@@ -291,6 +291,7 @@ body:after {
 
 /* Navbar */
 .site-navbar {
+  background: #fff;
   margin-bottom: 0px;
   z-index: 1999;
   position: absolute;
@@ -337,7 +338,7 @@ body:after {
         display: inline-block;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #C2E54F; }
+          color: #999999; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
@@ -403,7 +404,7 @@ body:after {
             padding: 9px 20px;
             display: block; }
             .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a:hover {
-              background: #eff1f3;
+              background: #999999;
               color: #000; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children > a:before {
             content: "\e315";
@@ -574,7 +575,7 @@ body:after {
   .sticky-wrapper .site-navbar .site-logo a {
     color: #fff; }
   .sticky-wrapper .site-navbar .site-menu > li > a {
-    color: #fff; }
+    color: #000; }
     .sticky-wrapper .site-navbar .site-menu > li > a:hover, .sticky-wrapper .site-navbar .site-menu > li > a.active {
       color: #fff !important; }
   .sticky-wrapper.is-sticky .site-navbar {
@@ -593,7 +594,7 @@ body:after {
     .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
       color: #000 !important; }
       .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover, .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
-        color: #C2E54F !important; }
+        color: #999999 !important; }
   .sticky-wrapper .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important; }
